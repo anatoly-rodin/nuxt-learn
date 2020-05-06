@@ -16,7 +16,7 @@
           <a
             class="nav-link"
             href="#"
-          >Link</a>
+          >About</a>
         </li>
       </ul>
     </div>
