@@ -7,16 +7,20 @@
     <div class="collapse navbar-collapse">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a
+          <nuxt-link
             class="nav-link"
-            href="#"
-          >Home</a>
+            to="/"
+          >
+            Home
+          </nuxt-link>
         </li>
         <li class="nav-item">
-          <a
+          <nuxt-link
             class="nav-link"
-            href="#"
-          >About</a>
+            to="/about"
+          >
+            About
+          </nuxt-link>
         </li>
       </ul>
     </div>
