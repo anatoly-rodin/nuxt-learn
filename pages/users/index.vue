@@ -21,7 +21,7 @@
 export default {
   name: 'Users',
   methods: {
-    openUser (id) {
+    openUser(id) {
       this.$router.push(`/users/${id}`)
     }
   }

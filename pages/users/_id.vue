@@ -6,6 +6,9 @@
 
 <script>
 export default {
-  name: 'User'
+  name: 'User',
+  validate() {
+    return true
+  }
 }
 </script>
