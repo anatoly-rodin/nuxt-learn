@@ -7,8 +7,8 @@
 <script>
 export default {
   name: 'User',
-  validate() {
-    return true
+  validate({ params }) {
+    return /^\d+$/.test(params.id)
   }
 }
 </script>
