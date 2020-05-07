@@ -28,6 +28,15 @@
             About
           </nuxt-link>
         </li>
+        <li class="nav-item">
+          <nuxt-link
+            class="nav-link"
+            to="/users"
+            active-class="active"
+          >
+            Users
+          </nuxt-link>
+        </li>
       </ul>
     </div>
   </nav>
