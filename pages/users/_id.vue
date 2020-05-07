@@ -1,6 +1,6 @@
 <template>
   <section>
-    <h1>User</h1>
+    <h1>User {{ $route.params.id }}</h1>
   </section>
 </template>
 
